@@ -8,6 +8,7 @@ def pagina_login(error=""):
 <body><main><h1>Iniciar sesión</h1>{mensaje}<form method="post" action="/login">
 <label for="username">Usuario</label><input id="username" name="username" autocomplete="username" required autofocus>
 <label for="password">Contraseña</label><input id="password" name="password" type="password" autocomplete="current-password" required>
+<label><input type="checkbox" name="recordar"> Recuérdame</label>
 <button type="submit">Entrar</button></form></main></body></html>'''
 
 
