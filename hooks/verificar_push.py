@@ -14,6 +14,7 @@ def main() -> int:
     resultado = subprocess.run(
         [sys.executable, "-m", "unittest", "discover", "-s", "proyecto-demo", "-v"],
         cwd=ROOT,
+        stdin=subprocess.DEVNULL,
     )
     if resultado.returncode != 0:
         print(
