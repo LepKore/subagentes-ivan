@@ -1,0 +1,4 @@
+#!/bin/sh
+# Hook versionado: instalarlo con hooks\instalar.ps1
+python hooks/verificar_push.py
+exit $?
