@@ -1,7 +1,7 @@
 from html import escape
 
 
-# Plantilla mínima de acceso para la demo.
+# Plantilla mínima de acceso para la demo web.
 def pagina_login(error=""):
     mensaje = f'<p role="alert">{escape(error)}</p>' if error else ""
     return f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Iniciar sesión</title></head>
